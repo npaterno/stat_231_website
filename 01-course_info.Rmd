@@ -1,0 +1,77 @@
+# Course Info {#info}
+
+(ref:email) [paternnj@plu.edu](mailto:paternnj@plu.edu)
+
+**Instructor:** Nick Paterno
+
+**Email:** (ref:email)
+
+### Office Hours
+Sign up [here](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUEtUG1vWXBzQWVnfGRlZmF1bHR8MDkxZTNlNTE2MzdjYTI4ZTY2MmFkNmRlZjI0OTNlNDI)
+
+```{r echo = FALSE, results = 'asis', warning = FALSE, message = FALSE}
+library(tidyverse)
+Day <- c("Monday", "Tuesday", "Thursday")
+Hours <- c("8:00 am - 2:30 pm", rep("1:00 pm - 3:00 pm",2))
+df <- data.frame(Day, Hours)
+knitr::kable(df) 
+```
+*Campus:* Morken 261 
+
+*Virtual:* via Zoom or Google Meet. 
+
+### Class Schedule
+```{r echo = FALSE, results = 'asis', warning = FALSE, message = FALSE}
+library(tidyverse)
+Day <- c("Monday", "Tuesday", "Wednesday", "Thursday", "Friday")
+Activity <- c("New video lessons posted", "Student hours", "Student hours", "Code along/live coding sessions", "Workshops")
+df <- data.frame(Day, Activity)
+knitr::kable(df) 
+```
+
+The first three days of the week are dedicated to lessons and homework from the textbook. Most weeks, last two days will be dedicated to statistical computing.
+
+### Class Materials
+
+**Textbook:** [OpenIntro Statistics, 4th Ed](https://leanpub.com/openintro-statistics)
+
+#### Technology:
+
+* Access to a word processing program. 
+* [R](https://cran.r-project.org/) and [RStudio](https://rstudio.com/) (These are free and we will get them setup during our first lab day)
+* A graphing calculator, preferably a TI-83 or TI-84. A Casio FX-9750GII will also work (useful but *optional*).
+
+## Graded Items and Grading Guidelines
+<center> *This section is a work in progress and will likely change* </center>
+
+### Weights of Grades:
+Category  | Weight
+------------- | -------------
+Homework  | 20%
+Quizzes  | 25%
+Labs | 20%
+Paper | 10%
+Final|  25%
+Total   | 100%
+
+#### Homework:
+All homework assignments will be online using [WAMAP](https://www.wamap.org). For these assignments, you will have 3 attempts per question. After the third attempt you will be shown the answer. You can reattempt each question as many times as you'd like! Homework must be completed by 11:59 pm. You will not be able to complete the quiz until you have finished a module's homework assignments with a 50% or better! Your lowest 3 assignments will be dropped.
+
+#### Quizzes:
+Each module will have a quiz closely related to the homework. The quiz will be locked until you meet the prerequisites. Your lowest quiz will be dropped. If you miss a quiz it counts as your dropped score.
+
+#### Labs:
+We will have weekly coding sessions and workshops with the exception of weeks seven and fourteen. Your lowest two labs (workshop assignments) will be dropped.
+
+#### Paper:
+Each student will be required to write a paper about statistics in the media. Details will be given out in the second week of class via the Class Communications guidelines. The paper is due no later than the Last Day of Instruction (see Important Dates below). If there is a week where you don't have much work in your other classes or our class didn't take you long then you may want to knock out the paper early in the semester.
+
+#### Final:
+The final project will be partly in R and partly on WAMAP. It will be due no later than Friday, May 28.
+
+### Important Dates
+Date  | Event
+------------- | -------------
+4/2/2021  | No Class: Good Friday
+5/21/2021 | Last Day of Instruction
+5/24/2021-5/28/2021 | Finals Week

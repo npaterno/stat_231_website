@@ -1,0 +1,18 @@
+# R Labs
+
+Each week we will have a code along/live code session as well as a workshop. The topic for the code along/live code will be the same for the workshop. Throughout the semester, I will use the same data set for as many weeks as possible, that way you can see how the data analysis process works for an entire project as opposed to isolated problems. Below is a tentative schedule of topics.
+
+```{r echo = FALSE, results = 'asis', warning = FALSE, message = FALSE}
+library(tidyverse)
+Week <- c("One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", "Thirteen", "Fourteen")
+Topic <- c("Getting Started with R", "RMarkdown Crash Course", "Data Viz I", "Descriptive Statistics I", "Data Wrangling I", "Data Wrangling II", "NO LAB", "Data Viz II", "Descriptive Statistics II", "Inferential Statistics I", "Inferential Statistics II", "Linear Modeling I", "Linear Modeling II", "NO LAB")
+df <- data.frame(Week, Topic)
+knitr::kable(df)
+```
+
+*Notes:* 
+- There will not be a code along/live coding session for week one. 
+- Week two's code along/live code will be a preview of some things you'll learn throughout the semester. 
+- There will be a screencasted version of the code along/live coding sessions posted on this page on Thursday evenings.
+
+## Week One: Getting Started with R
