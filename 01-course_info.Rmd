@@ -10,6 +10,7 @@
 Sign up [here](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUEtUG1vWXBzQWVnfGRlZmF1bHR8MDkxZTNlNTE2MzdjYTI4ZTY2MmFkNmRlZjI0OTNlNDI)
 
 ```{r echo = FALSE, results = 'asis', warning = FALSE, message = FALSE}
+#adjust office hours each semester
 library(tidyverse)
 Day <- c("Monday", "Tuesday", "Thursday")
 Hours <- c("8:00 am - 2:30 pm", rep("1:00 pm - 3:00 pm",2))
@@ -55,7 +56,7 @@ knitr::kable(df)
 ```
 
 #### Homework:
-Homework will not be graded but quiz and final exam questions will be heavily based on problems assigned for homework. All solutions that are not in the back of the textbook will be posted on the Homework Solutions page. 
+Homework will not be graded but quiz and final exam questions will be heavily based on problems assigned for homework. Solutions to even numbered problems are available upon request. 
 
 #### Quizzes:
 There will be one in-class quiz for each chapter (seven total). Quiz questions will be a mix of computation and short answer, no multiple choice. Your lowest quiz score will be dropped.
@@ -70,6 +71,10 @@ Each student will be required to write a paper about statistics in the media. De
 The final will have two parts: one in-class exam (similar to the quizzes) and a take-home lab to be completed as an RMarkdown file. The lab is due when you come in for the in-class final. Late lab submissions will be accepted within 24 hours of the due date with a 15% deduction and will not be accepted past the 24 hour mark. 
 
 ### Important Dates
+```{r eval = FALSE, include = FALSE}
+#Adjust dates each semester
+```
+
 Date  | Event
 ------------- | -------------
 4/2/2021  | No Class: Good Friday

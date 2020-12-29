@@ -16,10 +16,11 @@ description: "This is a test for a course shell based on a minimal example of us
 
 # {-}
 <center>
-  **Work In Progress**
+  **Work In Progress:**
+  This site is under construction for use. 
 </center>
-
-<img src = "images/stat231_sticker.png" width ="200px"/>This is the hub for Stat 231 at PLU with N. Paterno. Here you will find (a link to) the textbook, readings, homework, R labs \& screencasts, video lessons and links to slides.
+$$ $$
+<img style="float: left;" src = "images/stat231_sticker.png" width ="150px"/> Statistics are everywhere. The goal of this course is to give a broad overview of statistical methods and analysis including measures of central tendency and dispersion and generalizations about populations from samples by parametric and nonparametric techniques. Methods covered will include estimation, hypothesis testing, correlation analysis, regression, chi square, and ANOVA analysis. There is also a required computer lab which will introduce the statistical programming language R and how it can be used for analysis and data visualization.
 
 
 ```{r include=FALSE}
