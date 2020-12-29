@@ -3,6 +3,9 @@
 <h2><strong>Disclaimer:&nbsp;</strong></h2>
 <p>The videos below have the correct section written above the video with the length of the video in parenthesis. The video itself might refer to a different section number as the videos were created with a previous edition of the textbook.</p>
 
+## Attribution
+Videos were created by [OpenIntro](https://www.openintro.org).
+
 ## Chapter 1
 <h3><strong style="font-size: 14.4px;">Section 1.1 (4:29)</strong></h3>
 <div style="text-align: center;"><iframe src="https://www.youtube.com/embed/nEHFF1ADpWE" width="444" height="250"></iframe></div>

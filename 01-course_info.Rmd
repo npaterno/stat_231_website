@@ -24,12 +24,14 @@ knitr::kable(df)
 ```{r echo = FALSE, results = 'asis', warning = FALSE, message = FALSE}
 library(tidyverse)
 Day <- c("Monday", "Tuesday", "Wednesday", "Thursday", "Friday")
-Activity <- c("New video lessons posted", "Student hours", "Student hours", "Code along/live coding sessions", "Workshops")
+Activity <- c("New video lessons posted/Discussion & Problems Session", "Office Hours", "Discussion & Problems Session", "Office Hours", "Live Coding & Workshop")
 df <- data.frame(Day, Activity)
 knitr::kable(df) 
 ```
 
-The first three days of the week are dedicated to lessons and homework from the textbook. Most weeks, last two days will be dedicated to statistical computing.
+It is assumed that you will have done some reading and/or watched the video lessons **BEFORE** coming to class on Monday and Wednesday. Those classes will start with a brief discussion of the material and segue into a problem solving session.
+
+For the Live Coding \& Workshop sessions, we will start with a lesson on a specific element of statistical computing. This will be the live coding part; you'll have your laptop closed and can watch the process of structuring a file, troubleshooting errors and anything else that can come up when writing code. The remainder of class will be spent in workshop mode, which allows you to begin the lab assignment as well as collaborate with your peers. 
 
 ### Class Materials
 
@@ -42,32 +44,30 @@ The first three days of the week are dedicated to lessons and homework from the 
 * A graphing calculator, preferably a TI-83 or TI-84. A Casio FX-9750GII will also work (useful but *optional*).
 
 ## Graded Items and Grading Guidelines
-<center> *This section is a work in progress and will likely change* </center>
 
 ### Weights of Grades:
-Category  | Weight
-------------- | -------------
-Homework  | 20%
-Quizzes  | 25%
-Labs | 20%
-Paper | 10%
-Final|  25%
-Total   | 100%
+```{r echo = FALSE, results = 'asis', warning = FALSE, message = FALSE}
+library(tidyverse)
+Category<- c("Quizzes", "Labs", "Paper", "Final", "Total")
+Weight <- c("30%", "25%", "15%", "30%", "100%")
+df <- data.frame(Category, Weight)
+knitr::kable(df) 
+```
 
 #### Homework:
-All homework assignments will be online using [WAMAP](https://www.wamap.org). For these assignments, you will have 3 attempts per question. After the third attempt you will be shown the answer. You can reattempt each question as many times as you'd like! Homework must be completed by 11:59 pm. You will not be able to complete the quiz until you have finished a module's homework assignments with a 50% or better! Your lowest 3 assignments will be dropped.
+Homework will not be graded but quiz and final exam questions will be heavily based on problems assigned for homework. All solutions that are not in the back of the textbook will be posted on the Homework Solutions page. 
 
 #### Quizzes:
-Each module will have a quiz closely related to the homework. The quiz will be locked until you meet the prerequisites. Your lowest quiz will be dropped. If you miss a quiz it counts as your dropped score.
+There will be one in-class quiz for each chapter (seven total). Quiz questions will be a mix of computation and short answer, no multiple choice. Your lowest quiz score will be dropped.
 
 #### Labs:
-We will have weekly coding sessions and workshops with the exception of weeks seven and fourteen. Your lowest two labs (workshop assignments) will be dropped.
+We will have weekly coding sessions and workshops with the exception of weeks seven and fourteen. Your lowest two labs (workshop assignments) will be dropped. Late lab submissions will be accepted within 24 hours of the due date with a 15% deduction and will not be accepted past the 24 hour mark. 
 
 #### Paper:
-Each student will be required to write a paper about statistics in the media. Details will be given out in the second week of class via the Class Communications guidelines. The paper is due no later than the Last Day of Instruction (see Important Dates below). If there is a week where you don't have much work in your other classes or our class didn't take you long then you may want to knock out the paper early in the semester.
+Each student will be required to write a paper about statistics in the media. Details will be given out in the second week of class via email and the Announcements page. The paper is due no later than the Last Day of Instruction (see Important Dates below). If there is a week where you don't have much work in your other classes or our class didn't take you long then you may want to knock out the paper early in the semester.
 
 #### Final:
-The final project will be partly in R and partly on WAMAP. It will be due no later than Friday, May 28.
+The final will have two parts: one in-class exam (similar to the quizzes) and a take-home lab to be completed as an RMarkdown file. The lab is due when you come in for the in-class final. Late lab submissions will be accepted within 24 hours of the due date with a 15% deduction and will not be accepted past the 24 hour mark. 
 
 ### Important Dates
 Date  | Event

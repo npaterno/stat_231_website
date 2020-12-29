@@ -11,10 +11,13 @@ labs
 paper
 final
 important-dates
+announcements
+module-one
 rr
 textbook
 resources
 vids
+attribution
 chapter-1
 chapter-2
 chapter-3
@@ -24,6 +27,6 @@ chapter-7
 chapter-8
 r-labs
 week-one-getting-started-with-r
-final-words
-announcements
-module-one
+hw
+chapter-1-1
+hwsoln
