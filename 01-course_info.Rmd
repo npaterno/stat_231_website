@@ -7,7 +7,6 @@
 **Email:** (ref:email)
 
 ### Office Hours
-Sign up [here](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUEtUG1vWXBzQWVnfGRlZmF1bHR8MDkxZTNlNTE2MzdjYTI4ZTY2MmFkNmRlZjI0OTNlNDI)
 
 ```{r echo = FALSE, results = 'asis', warning = FALSE, message = FALSE}
 #adjust office hours each semester
@@ -17,6 +16,8 @@ Hours <- c("8:00 am - 2:30 pm", rep("1:00 pm - 3:00 pm",2))
 df <- data.frame(Day, Hours)
 knitr::kable(df) 
 ```
+[Sign Up Here](https://npaterno.youcanbook.me/)
+
 *Campus:* Morken 261 
 
 *Virtual:* via Zoom or Google Meet. 
